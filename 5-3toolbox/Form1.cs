@@ -39,8 +39,6 @@ namespace _5_3toolbox
             if (ProcOpen)
             {
                 ProcOpenLabel.Text = "WoW Process Found!";
-         
-              
             }
 
         }
@@ -54,14 +52,14 @@ namespace _5_3toolbox
         private void teleportButton_Click(object sender, EventArgs e)
         {
             m.WriteMemory("base+00CB1FF8,8,198,A0,50", "float", coordXBox.Text);
-            m.WriteMemory("base+009C754C,C,40,54", "float", coordYBox.Text);
+            m.WriteMemory("base+00CB1FF8,8,1F0,10,8,4,2C,54", "float", coordYBox.Text);
             m.WriteMemory("base+00A2EB50,1C,34,58", "float", coordZBox.Text);
         }
 
         private void ProcOpenLabel_TextChanged(object sender, EventArgs e)
         {
             float CoordinateX = m.ReadFloat("base+00CB1FF8,8,198,A0,50");
-            float CoordinateY = m.ReadFloat("base+009C754C,C,40,54");
+            float CoordinateY = m.ReadFloat("base+00CB1FF8,8,1F0,10,8,4,2C,54");
             float CoordinateZ = m.ReadFloat("base+00A2EB50,1C,34,58");
             coordXBox.Text = CoordinateX.ToString();
             coordYBox.Text = CoordinateY.ToString();
