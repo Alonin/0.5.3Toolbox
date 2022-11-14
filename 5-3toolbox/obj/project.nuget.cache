@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7+k02vPLiHuBSoo+eUrOo4O9BsaP2Vs//oYoSjK0eqtKcNr/gYlSShJa1IGC3kbzLW3pf7V6R33mwI03SCVaNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\timot\\source\\repos\\5-3toolbox\\5-3toolbox\\5-3toolbox.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timot\\.nuget\\packages\\memory.dll.x64\\1.2.24\\memory.dll.x64.1.2.24.nupkg.sha512"
+  ],
+  "logs": []
+}
