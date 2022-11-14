@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timot\\source\\repos\\5-3toolbox\\5-3toolbox\\5-3toolbox.csproj",
+      "projectUniqueName": "C:\\Users\\timot\\source\\repos\\5-3toolbox\\0.5.3Toolbox\\5-3toolbox\\5-3toolbox.csproj",
       "projectName": "5-3toolbox",
-      "projectPath": "C:\\Users\\timot\\source\\repos\\5-3toolbox\\5-3toolbox\\5-3toolbox.csproj",
+      "projectPath": "C:\\Users\\timot\\source\\repos\\5-3toolbox\\0.5.3Toolbox\\5-3toolbox\\5-3toolbox.csproj",
       "packagesPath": "C:\\Users\\timot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timot\\source\\repos\\5-3toolbox\\5-3toolbox\\obj\\",
+      "outputPath": "C:\\Users\\timot\\source\\repos\\5-3toolbox\\0.5.3Toolbox\\5-3toolbox\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
